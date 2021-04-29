@@ -180,6 +180,8 @@ const (
 	Secp384r1 EllipticCurve = C.NID_secp384r1
 	// P-521: NIST/SECG curve over a 521 bit prime field
 	Secp521r1 EllipticCurve = C.NID_secp521r1
+	// Secp256k1
+	Secp256k1 EllipticCurve = C.NID_secp256k1
 )
 
 // SetEllipticCurve sets the elliptic curve used by the SSL context to
